@@ -1,8 +1,10 @@
 #mostly just testing github
 
-def printHello():
-    print("Hello world!")
+def printHello(a: "x", b: 6) -> int:
+    print(a)
+    print(b)
+    return 7
 
-printHello()
-
+f = printHello()
+print(f)
 #changing some things seeing how it goes
